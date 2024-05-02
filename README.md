@@ -17,21 +17,27 @@ pip for Python package management
 Follow these steps to set up the bot:
 
 # Step 2: Install Dependencies
-Install the required Python libraries using pip
+Install the required Python libraries using pip:
+
 pip install discord python-dotenv
 
 # Step 3: Setup Discord Bot
 Go to the Discord Developer Portal.
+
 Create a new application and note the application ID.
+
 Under the "Bot" tab, create a new bot and copy the token.
+
 Invite the bot to your server using the OAuth2 URL generator with appropriate permissions.
 
 # Step 4: Configure Environment Variables
 Create a .env file in the root directory of the project and add your Discord bot token:
+
 DISCORD_TOKEN=your_bot_token_here
 
 # Step 5: Start the Bot
 Run the bot using the following command:
+
 python bot.py
 
 # Usage
