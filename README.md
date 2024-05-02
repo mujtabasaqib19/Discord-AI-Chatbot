@@ -1,44 +1,61 @@
-# Discord Gaming Bot README
-This project consists of a Discord bot designed to assist with gaming-related inquiries. The bot can respond to various prompts related to games like Valorant and CS:GO, offering information, tips, and even jokes.
+# Discord Gaming Bot
 
-# Features
-Responds to messages with pre-defined responses based on keywords.
-Supports private and channel communications.
-Customizable responses based on user inputs.
-Logs all user messages for monitoring interactions.
+A Discord bot designed to enhance gaming communities by providing information, updates, and interactions related to popular games like Valorant and CS:GO.
 
-# Prerequisites
-Before you start, make sure you have the following installed:
+## Features
 
-Python 3.8 or higher
-pip for Python package management
+- **Game Information**: Provides detailed information on games, modes, and strategies.
+- **Matchmaking Assistance**: Helps users find teams and group up.
+- **Event Notifications**: Updates users on upcoming tournaments and community events.
+- **Interactive Responses**: Offers tips, jokes, and technical support related to gaming.
+- **Private Messaging**: Can respond privately if messages are prefixed with '?'.
 
-# Installation
-Follow these steps to set up the bot:
+## Prerequisites
 
-# Step 2: Install Dependencies
-Install the required Python libraries using pip:
+Before you start, ensure you have the following installed:
+- Python 3.8 or higher
+- pip (Python package installer)
 
-pip install discord python-dotenv
+## Installation
 
-# Step 3: Setup Discord Bot
-Go to the Discord Developer Portal.
+1. **Clone the Repository**
 
-Create a new application and note the application ID.
+   ```bash
+   git clone https://github.com/mujtabasaqib19/Discord-AI-Chatbot
+   cd discord-gaming-bot
+   ```
 
-Under the "Bot" tab, create a new bot and copy the token.
+2. **Set Up a Virtual Environment** (optional, but recommended):
 
-Invite the bot to your server using the OAuth2 URL generator with appropriate permissions.
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
 
-# Step 4: Configure Environment Variables
-Create a .env file in the root directory of the project and add your Discord bot token:
+3. **Install Dependencies**
 
-DISCORD_TOKEN=your_bot_token_here
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-# Step 5: Start the Bot
-Run the bot using the following command:
+   This will install all necessary packages, including `discord.py` and `python-dotenv`.
 
+4. **Environment Variables**
+
+   Create a `.env` file in the root directory and add your Discord bot token:
+
+   ```plaintext
+   DISCORD_TOKEN=your_discord_bot_token_here
+   ```
+
+   Replace `your_discord_bot_token_here` with your actual Discord bot token.
+
+## Usage
+
+Run the bot with:
+
+```bash
 python bot.py
-
-# Usage
-Once the bot is running and connected to your Discord server, it will listen to messages and respond based on the predefined intents. Users can interact with the bot in any channel where the bot has permissions to read and send messages.
+```
+## Feedback and Contact
+feel free to give feedback and contact on my email mujtabasaqib654@gmail.com
