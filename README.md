@@ -17,7 +17,7 @@ pip for Python package management
 Follow these steps to set up the bot:
 
 # Step 2: Install Dependencies
-Install the required Python libraries using pip:
+Install the required Python libraries using pip
 pip install discord python-dotenv
 
 # Step 3: Setup Discord Bot
